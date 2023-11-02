@@ -7,11 +7,11 @@ import {
   Property,
 } from "@mikro-orm/core"
 
-import { generateEntityId } from "@medusajs/utils"
+import PriceList from "./price-list"
 import PriceSet from "./price-set"
 import PriceSetMoneyAmount from "./price-set-money-amount"
 import RuleType from "./rule-type"
-import PriceList from "./price-list"
+import { generateEntityId } from "@medusajs/utils"
 
 type OptionalFields = "id" | "priority" 
 type OptionalRelations = "rule_type" | "price_list"
